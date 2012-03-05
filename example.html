@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>leanPrinter example</title>
+<link rel="stylesheet" href="leanprinter.css" />
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="jquery-leanprinter.js"></script>
+<script type="text/javascript" src="sample-json-content.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.leanPrinter').leanPrinter(json);
+});
+</script>
+</head>
+<body>
+	<div class="leanPrinter">
+		<div class="row">
+			<div class="column grid40">{name}</div>
+			<div class="column grid30">{occupation}</div>
+			<div class="column grid20">{city}</div>
+			<div class="column grid10">{YOB}</div>
+		</div>
+	</div>
+</body>
+</html>

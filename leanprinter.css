@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin:0;
+	color:#444;
+}
+.leanPrinter, .leanPrinter row {
+	width:100%;
+	display:inline-block;
+}
+
+.leanPrinter .row {
+	margin:5px 0;
+	padding:5px 0;
+	border-bottom:1px solid #d0d0d0;
+}
+
+.leanPrinter .column {
+	margin:0 1%;
+	display:inline-block;
+}
+
+.grid10{
+	width:8%;
+}
+
+.grid20 {
+	width:18%;
+}
+
+.grid30{
+	width:28%;
+}
+
+.grid40{
+	width:28%;
+}

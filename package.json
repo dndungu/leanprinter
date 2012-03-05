@@ -1,0 +1,34 @@
+({
+    "name": "leanprinter",
+    "version": "1.0",
+    "title": "jQuery.leanPrinter()",
+    "author": {
+        "name": "David Njuguna",
+        "url": "https://github.com/dnjuguna"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "LICENSE"
+        }
+    ],
+    "dependencies": {
+        "jquery": "1"
+    },
+    "description": "",
+    "keywords": [
+        "templating",
+        "ajax",
+        "json"
+    ],
+    "homepage": "https://github.com/jquery/jquery-leanprinter",
+    "maintainers": [
+        {
+            "name": "David Njuguna",
+            "url": "https://github.com/dnjuguna"
+        }
+    ],
+    "files": [
+        "jquery.leanprinter.js"
+    ]
+});
