@@ -1,0 +1,23 @@
+leanPrinter is a lean and clean client side templating jQuery plugin that allows you to render a javascript array according to a HTML based template.
+
+USAGE
+
+<html>
+<head>
+<script type="text/javascript">
+$(document).ready(function(){
+	var data = [{name: "John Doe", name: "Ole Sereni"}];
+	$('templateClass').leanPrinter(data);
+});
+</script>
+</head>
+<body>
+	<div class="templateClass">
+		<p>{name}</p>
+	</div>
+</body>
+</html>
+
+This will replace the innerHTML of div.templateClass with; 
+	<p>John Doe</p>
+	<p>Ole Sereni</p>
