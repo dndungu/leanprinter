@@ -1,6 +1,9 @@
 (function( $ ) {
 	$.fn.leanPrinter = function(records) {
-		var template = this.html();		
+		if(!this.data('leanPrinterTemplate')){
+			this.data('leanPrinterTemplate', this.html());
+		}
+		var template = this.data('leanPrinterTemplate');		
 		if(records instanceof Array){
 			function substitute(row){
 				var html = new String(template);
